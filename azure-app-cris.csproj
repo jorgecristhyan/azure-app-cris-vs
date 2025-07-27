@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_cris</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/21d7b061-8ebe-4a69-bc49-ca61b542c9c4/resourceGroups/AZ-NET-DEV_group/providers/microsoft.insights/components/azure-app-cris-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>c860efd4-3d45-417f-97b5-3760cd834779</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
