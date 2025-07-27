@@ -14,7 +14,6 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
-        throw new Exception("Testing Insights: An error occurred while processing your request.");
     }
 }
 
